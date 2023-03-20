@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+body{
+    background-image: url(background.png);
+}
+.container{
+  width: 50px;
+  height: 50px;
+}
+ .top-left{
+   position: absolute;
+   width: 250px;
+   height: 30px;
+   top: 10px;   
+}
+.top-right{
+   position: absolute;
+  float: right;
+  left: 93%;
+  margin-top: 1px;
+}
+ul  a{
+    position: relative;
+   justify-content: space-between;
+   padding: 12px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    left: 400px;
+    color: rgb(5, 5, 5);
+    padding: 25px;
+    
+    
+}
+.center{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 200px;
+
+}
+ 
