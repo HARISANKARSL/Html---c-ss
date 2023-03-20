@@ -1,0 +1,429 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: rgb(199, 199, 199);
+   font-family: "Poppins", sans-serif;;
+
+    
+}
+.container{
+    width: 10px;
+    height: 100%;
+ background: linear-gradient(115deg,#3346ec 10%,#41b4f7 90% );
+    width: 250px;
+    height: 650px;
+    border-radius: 15px;
+    position: absolute;
+    left: 50px;
+    padding: 20px;
+    margin: 20px;
+    top: 5px;
+    cursor: pointer;
+}
+.container .top-img{
+    width: 100px;
+    height:100px;
+    border-radius: 220px;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    cursor: pointer;
+}
+.container h1{
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    color: white;
+}
+.container h2{
+    width: 150px;
+    height: 15px;
+    font-size: 12px;
+    color: azure;
+    position: absolute;
+    top: 145px;
+    right: 60px;
+    padding: 10px;
+    margin: 35px;
+}
+.nav-bar{
+    position: relative;
+   width: 30px;
+
+   left: 100px;
+   top: 350px;
+   text-decoration: none;
+   padding: -2px;
+}
+.nav-bar a{
+  position: relative;
+  align-items: center;
+ 
+  color: aliceblue;
+  text-decoration: none;
+  bottom: 70px;
+  height: 80px;
+  display: inline;
+  
+}
+
+
+.nav-bar a p{
+    position: relative;
+    left: 45px;
+   bottom: 40px;
+   width: 300px;
+   
+   
+}
+.nav-bar a p:hover{
+    color: rgb(37, 240, 240);
+}
+.content{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    width: 600px;
+    height: 520px;
+    position: absolute;
+    left: 400px;
+   margin-top: 40px;
+   border-radius: 10px;
+}
+.content h1{
+    position: absolute;
+    left: 50px;
+   
+}
+.content a{
+   position: relative;
+   display: block;
+   color: rgb(80, 71, 71);
+   padding: 20px;
+   top: 95px;
+   left: 180px;
+   text-decoration: none;
+}
+.content a p{
+    position: relative;
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+    bottom:5px;
+    text-decoration: none;
+}
+.me{
+    position: absolute;
+    width: 1000px;
+    height: 685px;
+    background: linear-gradient(115deg,#4152e9 10%,#41b4f7 90% );
+    opacity: .8;
+    border-radius: 10px;
+    
+}
+.about{
+    background: url(./me.jpeg);
+    opacity: 1;
+    width: 1000px;
+    height: 685px;
+    position: absolute;
+    top: -13px;
+
+    left: 400px;
+   margin-top: 40px;
+   border-radius: 10px;
+}
+.about h1{
+    position: absolute;
+    width: 600px;
+    height: 60%;
+    font-weight: 900;
+    top: 200px;
+    left: 350px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  
+}
+
+.about h3{
+    width: 1000px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+   
+   
+
+}
+.qualification{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    width: 600px;
+    height: 330px;
+    position: absolute;
+    left: 400px;
+    top: 580px;
+   margin-top: 40px;
+   border-radius: 10px;
+}
+.qualification h1{
+    position: absolute;
+    left: 50px;
+}
+.qualification ol{
+    position: absolute;
+    top: 100px;
+    left: 180px;
+    color: rgb(80, 71, 71);
+   width: 280px;
+   height: 40px;
+    
+}
+.experience{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    left: 400px;
+    top: 950px;
+   margin-top: 40px;
+   border-radius: 10px;  
+}
+.experience h1{
+    width: 300px;
+    height: 100px;
+   left: 50px;
+    position: absolute;
+  
+}
+.experience ul{
+    position: absolute;
+    top: 100px;
+    left: 180px;
+    color: rgb(80, 71, 71);
+}
+.skills{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    width: 600px;
+    height: 650px;
+    position: absolute;
+    left: 400px;
+    top: 1300px;
+   margin-top: 40px;
+   border-radius: 10px; 
+}
+.skills h1{
+    width: 300px;
+    height: 100px;
+   
+    position: absolute;
+    left: 50px
+}
+.skills ul{
+    position: absolute;
+    top: 80px;
+    left: 5px;
+    color: rgb(80, 71, 71);
+    margin: 12px;
+}
+.skills input{
+    width: 350px;
+    height: 17px;
+    position: relative;
+    top: 15px;
+    
+    left: 10px;
+    border-radius:10px;
+    border: none;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.skills ul p{
+
+    
+    width: 320px;
+    height: 20px;
+    background-color: #4e9991;
+ position: relative;
+ left: 9px;
+ bottom: 20px;
+ border-radius: 10px;
+ text-align: center;
+
+}
+.skills ul .p1{
+
+    width: 300px;
+    height: 20px;
+    background-color: #4e9991;
+ position: relative;
+ left: 9px;
+ bottom: 20px;
+ border-radius: 10px;
+ text-align: center;
+ 
+}
+.skills ul .p2{
+
+    width: 270px;
+    height: 20px;
+    background-color: #4e9991;
+ position: relative;
+ left: 9px;
+ bottom: 20px;
+ border-radius: 10px;
+ text-align: center;
+ 
+}
+.skills ul .p3{
+
+    width: 260px;
+    height: 20px;
+    background-color: #4e9991;
+ position: relative;
+ left: 9px;
+ bottom: 20px;
+ border-radius: 10px;
+ text-align: center;
+}
+.skills ul .p4{
+
+    width: 230px;
+    height: 20px;
+    background-color: #4e9991;
+ position: relative;
+ left: 9px;
+ bottom: 20px;
+ border-radius: 10px;
+ text-align: center;
+ 
+}
+.skills ul .p5{
+
+    width: 200px;
+    height: 20px;
+    background-color: #4e9991;
+ position: relative;
+ left: 9px;
+ bottom: 20px;
+ border-radius: 10px;
+ text-align: center;;
+ 
+}
+
+
+
+.favlink{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 400px;
+    top: 2000px;
+   margin-top: 40px;
+   border-radius: 10px;   
+}
+.favlink h1{
+    width: 300px;
+    height: 100px;
+    
+    position: absolute;
+    left: 50px
+}
+.favlink ul{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    
+   
+}
+.back{
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 2400px;
+    left: 1100px;
+
+
+}
+.back a{
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-weight: 900;
+ background: rgb(180, 175, 175);
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ border-radius: 80px;
+ position: sticky;
+}
+.back a:hover{
+    background-color: rgb(240, 112, 112);
+}
+.contact{
+  position: relative;
+ letter-spacing: 5px;
+  left: 450px;
+  background-color: #3346ec;
+}
+.contact a {
+    
+ position: absolute;
+ width: 300px;
+ height: 100px;
+ font-size: large;
+ text-decoration: none;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: white;
+ margin: 10px;
+ background-color: rgb(240, 112, 112);
+ opacity: .800;
+ top: 70px;
+
+ border-radius: 10px;
+} 
+.contact a p{
+    position: relative;
+    left: 10px;
+
+}
+.contact a:hover{
+    background: linear-gradient(115deg,#4152e9 10%,#41b4f7 90% );
+    color:white
+}
+.works{
+    position: relative;
+    letter-spacing: 5px;
+     left: 850px;
+     background-color: #3346ec;
+}
+.works a{
+    position: absolute;
+ width: 300px;
+ height: 100px;
+ font-size: large;
+ text-decoration: none;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: white;
+ margin: 10px;
+ background-color: rgb(240, 112, 112);
+ opacity: .800;
+ top: 70px;
+ border-radius: 10px;
+}
+.works a p{
+    position: relative;
+    left: 10px;
+}
+.works a:hover{
+    background: linear-gradient(115deg,#4152e9 10%,#41b4f7 90% );
+    color:white
+}
