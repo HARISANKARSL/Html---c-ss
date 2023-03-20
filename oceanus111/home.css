@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.left-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.left-img img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.detail{
+    
+    height: 71vh;
+    width: 220px;
+    background: rgb(5, 85, 151);
+    
+   
+}
+.detail li{
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   border-bottom: 1px solid  rgb(49, 139, 212);
+    height: 80px;
+   
+}
+.detail li a{
+text-decoration: none;
+color: white;
+font-weight: 400;
+font-size: 30px;
+
+
+
+}
+
+.detail  :hover{
+    background-color: rgb(49, 139, 212);
+    
+    
+}
+/*daily catch*/
+.leftimg img{ 
+    width: 200px;
+    height: 200px;
+    margin-left: 20px; 
+    margin-top: 10px;
+    background-color: white;
+    
+}
+.logos {
+ display: flex;
+align-items: center;
+
+}
+.leftimg{
+
+display: flex;
+
+justify-content: space-between;
+}
+.logos label{
+    position: relative;
+    left: 8em;
+    bottom: 40px;
+    color: gray;
+}
+.logos input{
+    width: 150px;
+height: 40px;
+margin-left: 20px;
+text-align: center;
+box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.15);
+background-color: white;
+outline: none;
+border: none;
+}
+.logos .date{
+    width: 50px;
+}
+.leftimg {
+background-color: #F4F4F4;;
+}
+.details{
+margin-top: 5px;
+   background: rgb(5, 85, 151);
+   height: 71vh;
+    width: 220px;  
+}
+.details li{
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   border-bottom: 1px solid  rgb(49, 139, 212);
+    height: 85px;
+   
+}
+.details li a{
+text-decoration: none;
+color: white;
+font-weight: 400;
+font-size: 30px;
+
+
+
+}
+.menu{
+    height: 60vh;
+}
+.detls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+  bottom: 450px;
+  left: 250px;
+  
+ 
+}
+.detls p{
+ 
+   background-color:  #47C2C7;
+   width: 200px;
+height: 37px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: aliceblue;
+
+
+}
+#type{
+   
+    position: absolute;
+   left: 0;
+    width: 200px;
+    height: 40px;
+    top: 50px;
+}
+#type{
+   
+    position: absolute;
+   left: 0;
+    width: 200px;
+    height: 40px;
+    top: 50px;
+}
+#type{
+   
+    position: absolute;
+   left: 0;
+    width: 200px;
+    height: 40px;
+    top: 50px;
+}
+#ctgry{
+   
+    position: absolute;
+   left: 250px;
+
+    width: 200px;
+    height: 40px;
+    top: 50px;
+}
+#grade{
+   
+    position: absolute;
+   left: 480px;
+    width: 50px;
+    height: 40px;
+    top: 50px;
+    margin-right: 10px;
+
+
+}
+#box{
+    position: absolute;
+    left: 680px;
+     width: 50px;
+     height: 40px;
+     top: 50px;
+     margin-right: 10px;
+     text-align: center;
+  
+}
+#pstn{
+    position: relative;
+   right: 180px;
+     width: 50px;
+     height: 40px;
+     top: 50px;
+     margin-right: 10px; 
+    text-align: center;
+}
+
+
+.add{
+    width: 103px;
+    height: 40px;
+    position: relative;
+right: 150px;
+top: 48px;
+background-color:  #8C8A8A;
+border: none;
+color: white;
+cursor: pointer;
+}
+.save{
+
+float: right;
+position: absolute;
+width: 103px;
+height: 40px;
+top:420px;
+right: 150px;
+background: #00C0F3;
+border: none;
+color: white;
+cursor: pointer;
+}
+.details  :hover{
+    background-color: rgb(49, 139, 212);
+    
+    
+}
